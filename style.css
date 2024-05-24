@@ -153,6 +153,14 @@ button:active {
     transform: translateY(2px);
 }
 
+a {
+    top: 97%;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+}
+
 /* responsivo */
 
 @media (max-width: 600px) {
@@ -183,6 +191,11 @@ button:active {
         font-size: 1.3rem;
         padding: 8px 16px;
     }
+
+    a {
+        top: 97.5%;
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -212,5 +225,10 @@ button:active {
     button {
         font-size: 1.2em;
         padding: 6px 12px;
+    }
+
+    a {
+        top: 97.5%;
+        font-size: 12px;
     }
 }
