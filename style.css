@@ -121,6 +121,8 @@ label {
     color: #ff0000;
 }
 
+/* botao de reiniciar */
+
 button {
     font-family: "Varela Round", sans-serif;
     padding: 10px 20px;
@@ -142,4 +144,5 @@ button:hover {
 
 button:active {
     box-shadow: 0 2px #003eb0;
+    transform: translateY(2px);
 }
