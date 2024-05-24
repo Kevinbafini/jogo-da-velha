@@ -17,6 +17,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* container */
+
+.container {
+    text-align: center;
+}
+
 /* titulo */
 
 h1 {
@@ -145,4 +151,66 @@ button:hover {
 button:active {
     box-shadow: 0 2px #003eb0;
     transform: translateY(2px);
+}
+
+/* responsivo */
+
+@media (max-width: 600px) {
+    .celula {
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    label {
+        font-size: 1.5rem;
+    }
+
+    #modoJogo {
+        font-size: 0.9em;
+    }
+
+    #mostradorDeVez,
+    #mensagem {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 1.3rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .celula {
+        width: 80px;
+        height: 80px;
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    label {
+        font-size: 1.2rem;
+    }
+
+    #modoJogo {
+        font-size: 0.75em;
+    }
+
+    #mostradorDeVez,
+    #mensagem {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 1.2em;
+        padding: 6px 12px;
+    }
 }
