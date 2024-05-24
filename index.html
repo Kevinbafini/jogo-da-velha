@@ -9,6 +9,33 @@
   </head>
   <link rel="icon" type="image.png" href="img/icon.png" />
   <body>
-    <script src="script.js"></script>
+    <div class="container">
+      <h1>Jogo da Velha</h1>
+      <div>
+        <label for="modoJogo">Selecione o modo de jogo:</label>
+        <select id="modoJogo">
+          <option value="jogador">Jogar contra pessoa</option>
+          <option value="facil">Contra Máquina (Fácil)</option>
+          <option value="medio">Contra Máquina (Médio)</option>
+          <option value="dificil">Contra Máquina (Difícil)</option>
+        </select>
+      </div>
+      <div id="mostradorDeVez"></div>
+      <div id="tabuleiro">
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+        <div class="celula" data-celula></div>
+      </div>
+      <div id="mensagem"></div>
+      <button id="botaoReiniciar">Reiniciar Jogo</button>
+
+      <script src="script.js"></script>
+    </div>
   </body>
 </html>
