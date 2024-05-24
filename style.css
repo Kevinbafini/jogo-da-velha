@@ -120,3 +120,26 @@ label {
 .celula.o {
     color: #ff0000;
 }
+
+button {
+    font-family: "Varela Round", sans-serif;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #0059ff;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px #003eb0;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2873ff;
+}
+
+button:active {
+    box-shadow: 0 2px #003eb0;
+}
